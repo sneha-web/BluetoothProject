@@ -21,19 +21,14 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import ConnectDevice from './src/ConnectDevice';
 
 
 function App(): React.JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
-
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
-
   return (
-    <SafeAreaView style={backgroundStyle}>
-       <Text>Helloooooo</Text>
-    </SafeAreaView>
+    <>
+      <ConnectDevice/>
+    </>
   );
 }
 
