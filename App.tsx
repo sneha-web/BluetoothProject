@@ -32,7 +32,7 @@ function App(): React.JSX.Element {
 
   return (
     <SafeAreaView style={backgroundStyle}>
-       <Text>Hello</Text>
+       <Text>Helloooooo</Text>
     </SafeAreaView>
   );
 }
